@@ -14,5 +14,5 @@ var _ = Suite(&MySuite{})
 
 func (s *MySuite) TestHelloWorld(c *C) {
 	result := HelloWorld()
-	c.Assert(result, Matches, "Hello, World!!!")
+	c.Assert(result, Matches, "Hello, World or Cedric!!!")
 }
